@@ -1,0 +1,60 @@
+%!TEX TS-program = xelatex
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=0.5cm, bottom=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{fontspec}
+
+\setsansfont{roboto}[
+  Path = resources/,
+  Extension = .ttf,
+  UprightFont = *-normal,
+  FontFace={b}{n}{Font=*-bold},
+  FontFace={m}{it}{Font=*-italic},
+  FontFace={b}{it}{Font=*-bold-italic},
+]
+\newfontface\headerfont{roboto}[
+  Path = resources/,
+  Extension = .ttf,
+  UprightFont = *-normal,
+  FontFace={b}{n}{Font=*-bold},
+  FontFace={m}{it}{Font=*-italic},
+  FontFace={b}{it}{Font=*-bold-italic},
+]
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{flushright}
+        \includegraphics[width=0.4\textwidth]{resources/logo.png}
+    \end{flushright}
+
+    \centering
+    \vspace*{5cm}
+
+    \headerfont\fontsize{24pt}{28pt}\selectfont
+    \textbf{Contoso Ltd}
+
+    \vspace{0.5cm} % Add vertical space
+
+    \headerfont\fontsize{24pt}{28pt}\selectfont
+    \textbf{VAR_DOCUMENT_NAME}
+
+    \vspace*{\fill}
+    
+    \renewcommand{\arraystretch}{2.0}
+    
+    \begin{table}[h!]
+        \centering
+        \fontsize{12pt}{14pt}\selectfont
+        \begin{tabular}{|l|l|l|}
+            \hline
+            Owner: VAR_DOCUMENT_OWNER & Reviewed By: VAR_DOCUMENT_REVIEWER & Approved By: VAR_DOCUMENT_APPROVER \\ 
+            \hline
+            Version: VAR_DOCUMENT_VERSION & \multicolumn{2}{|c|}{Date: VAR_DOCUMENT_DATE} \\ 
+            \hline
+        \end{tabular}
+    \end{table}
+
+\end{titlepage}
+
+\end{document}

@@ -1,0 +1,62 @@
+= Demo One Standard
+:version:   1.0
+:date:      2025-03-18
+:owner:     John Smith
+:reviewer:  Jane Doe
+:approver:  Richard Roe
+:toc:       macro
+
+include::../resources/template.adoc[]
+
+== Header 1
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Aenean commodo ligula eget dolor.
+Aenean massa. +
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. +
+Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem nulla consequat massa quis enim donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+Nullam dictum felis eu pede mollis pretium Integer tincidunt. +
+Cras dapibus. +
+Vivamus elementum semper nisi senean vulputate eleifend tellus.
+
+== Header 2
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Aenean commodo ligula eget dolor.
+Aenean massa cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. +
+Nulla consequat massa quis enim.
+Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. +
+In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+Nullam dictum felis eu pede mollis pretium.
+Integer tincidunt.
+Cras dapibus.
+Vivamus elementum semper nisi.
+Aenean vulputate eleifend tellus aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+Phasellus viverra nulla ut metus varius laoreet.
+Quisque rutrum aenean imperdiet Etiam ultricies nisi vel augue curabitur ullamcorper ultricies nisi.
+
+=== Sub header
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Aenean commodo ligula eget dolor.
+Aenean massa.
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+Nulla consequat massa quis enim.
+Donec pede justo, fringilla vel, aliquet nec, vulputate.
+
+== Revision History
+
+[%header,cols="20,20,20,40"]
+|===
+|Version
+|Date 
+|Author
+|Changes
+
+|1.0
+|2025-03-18
+|John Smith
+|Initial Version
+|===

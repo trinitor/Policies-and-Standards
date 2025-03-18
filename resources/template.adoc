@@ -1,0 +1,17 @@
+
+[cols="3*"]
+|===
+| Owner: {owner}
+| Reviewed By: {reviewer}
+| Approved By: {approver}
+
+| Version: {version}
+2+| Date: {date}
+|===
+
+<<<
+
+// [%noheader] //uncomment if you want to have no header on the TOC page
+toc::[]
+
+<<<

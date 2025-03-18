@@ -1,0 +1,71 @@
+extends: default
+
+page:
+  size: A4
+  margin: [20mm, 20mm, 20mm, 20mm]
+
+header:
+  font-size: 12
+  border_color: 505050
+  border_width: 0.25
+  padding: [5mm 0mm, 0mm, 0mm]
+  height: 15mm
+  recto:
+    left:
+      content: '{doctitle}'
+      vertical-align: middle
+    right:
+      content: image:logo.png[pdfwidth=3cm]
+      vertical-align: middle
+  verso:
+    left:
+      content: '{doctitle}'
+      vertical-align: middle
+    right:
+      content: image:logo.png[pdfwidth=3cm]
+      vertical-align: middle
+
+footer:
+  recto:
+    left:
+      content: 'Version {version} / {date}'
+    right:
+      content: 'Page {page-number} of {page-count}'
+  verso:
+    left:
+      content: 'Version {version} / {date}'
+    right:
+      content: 'Page {page-number} of {page-count}'
+
+font:
+  catalog:
+    merge: true
+    Roboto:
+      normal: roboto-normal.ttf
+      bold: roboto-bold.ttf
+      italic: roboto-italic.ttf
+      bold-italic: roboto-bold-italic.ttf
+  base:
+    font-family: Roboto
+
+heading:
+  h2:
+    font-size: 16
+    font-family: Roboto
+    font-style: bold
+  h3:
+    font-size: 14
+    font-family: Roboto
+    font-style: bold
+base:
+  font-size: 12
+  font-family: Roboto
+toc:
+  line-height: 1.3
+  title: 
+    font-size: 12
+  dot-leader:
+    content: ". "
+
+image:
+  align: center
